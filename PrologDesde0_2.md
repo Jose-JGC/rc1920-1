@@ -18,12 +18,15 @@ concatenar([cab|resto], lista2, [cab|R]) :-
 
 Como podemos observar, este problema ha sido resuelto con el [principio de inducción](https://github.com/Jose-JGC/rc1920-1/blob/master/PrologDesde0.md), ya explicado anteriormente, que es el pilar fundamental
 para entender la programación en Prolog.
+
 Nuestro *P(n0)* seria el primer predicado ```concatenar([], lista2, lista2). ```
+
 Nuestro *∀n>n0, P(n-1)->P(n)* sería el segundo predicado 
 ```
 concatenar([cab|resto], lista2, [cab|R]) :- 
 	concatenar(resto, lista2,R).	
 ```
+
 Como en el predicado inferior R contendrá la concatenacion del resto y lista2, nos haremos la siguiente [pregunta](https://youtu.be/JqQNd6uFuLs?t=286):
 >¿Qué tengo que hacerle a esta R resultado de la lista con un elemento menos para que el resultado de la lista completa sea verdad?
 
