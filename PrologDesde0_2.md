@@ -25,7 +25,8 @@ concatenar([cab|resto], lista2, [cab|R]) :-
 	concatenar(resto, lista2,R).	
 ```
 Como en el predicado inferior R contendrá la concatenacion del resto y lista2, nos haremos la siguiente [pregunta](https://youtu.be/JqQNd6uFuLs?t=286):
-> ¿Qué tengo que hacerle a esta R resultado de la lista con un elemento menos para que el resultado de la lista completa sea verdad?
+>¿Qué tengo que hacerle a esta R resultado de la lista con un elemento menos para que el resultado de la lista completa sea verdad?
+
 En este caso, tendremos que añadirle la cabeza al principio.
 Hecho esto el ejercicio queda resuelto. En resumen, tenemos un caso base de concatenación y otro predicado que indica la relación que hay entre el caso con elementos R y el caso con uno menos.
 Conclusion: Hoy hemos aprendido a concatenar dos listas usando prolog. Como podemos observar con solo aplicar el principio de inducción el problema se resuelve casi solo.
