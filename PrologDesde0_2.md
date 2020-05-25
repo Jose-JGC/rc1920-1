@@ -32,10 +32,15 @@ Como en el predicado inferior R contendrá la concatenacion del resto y lista2, 
 >¿Qué tengo que hacerle a esta R resultado de la lista con un elemento menos para que el resultado de la lista completa sea verdad?
 
 En este caso, tendremos que añadirle la cabeza al principio.
+
 Hecho esto el ejercicio queda resuelto. En resumen, tenemos un caso base de concatenación y otro predicado que indica la relación que hay entre el caso con elementos R y el caso con uno menos.
+
 Conclusion: Hoy hemos aprendido a concatenar dos listas usando prolog. Como podemos observar con solo aplicar el principio de inducción el problema se resuelve casi solo.
-Lo más importante para poder aprender esta nueva forma de programar es entendiendo esto. Siempre debemos ver las relaciones existentes entre nuestras variables y ver el resultado
-como algo estático. Debemos para ello confiar en el principio de inducción. Si todavía no te convence el principio de inducción, te planteo este ejercicio para que lo intentes resolver a tu manera.
+
+Lo más **importante** para poder aprender esta nueva forma de programar es entendiendo esto. **Siempre debemos ver las relaciones existentes entre nuestras variables y ver el resultado como algo estático.**
+Debemos para ello confiar en el principio de inducción. 
+
+Si todavía **no** te convence el principio de inducción, te planteo este **ejercicio para que lo intentes resolver a tu manera**.
 Si lo consigues no necesitas saber nada más. Si no lo consigues deberias seguir con esta guia.
 
 ```
