@@ -1,6 +1,6 @@
-#Prolog desde 0
+# Prolog desde 0
 
-##Concatenar listas
+## Concatenar listas
 
 En el día de hoy, aprendermos a concatenar dos listas en prolog. Para ello nos basaremos en este [video.]( https://www.youtube.com/watch?v=JqQNd6uFuLs)
 Despues de ver el video, comenzaremos a explicar como funciona la función implementada con la ayuda del **ejercicio propuesto: **
