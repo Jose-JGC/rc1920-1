@@ -20,9 +20,9 @@ concatenar([Cab|Resto], Lista2, [Cab|R]) :-
 Como podemos observar, este problema ha sido resuelto con el [principio de inducción](https://github.com/Jose-JGC/rc1920-1/blob/master/PrologDesde0.md), ya explicado anteriormente, que es el pilar fundamental
 para entender la programación en Prolog.
 
-Nuestro *P(n0)* seria el primer predicado ```concatenar([], Lista2, Lista2). ```
+Nuestro *P(n0)* seria la primera cláusula ```concatenar([], Lista2, Lista2). ```
 
-Nuestro *∀n>n0, P(n-1)->P(n)* sería el segundo predicado 
+Nuestro *∀n>n0, P(n-1)->P(n)* sería la primera cláusula 
 ```
 concatenar([Cab|Resto], Lista2, [Cab|R]) :- 
 	concatenar(Resto, Lista2,R).	
