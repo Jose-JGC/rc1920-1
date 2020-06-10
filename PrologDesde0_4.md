@@ -45,7 +45,7 @@ arbol3(a('+', a('*', a(4,nil,nil), a(5,nil,nil)), a('/', a(6,nil,nil),a(7,nil,ni
 - Donde el primer elemento es la *raíz* del árbol y los otros dos son las *hojas*.
 - Donde nil es lo equivalente a NULL en otros lenguajes. Significa que ahi no hay nodo.
 
-Después de esto, crearemos el predicado preorden, que mostrará el arbol en ese orden.
+Después de esto, crearemos el predicado preorden, que mostrará su recorrido preorden.
 ```
 /*
 preorden(Arbol, Lista)
@@ -69,3 +69,6 @@ preorden(a(E,HI,HD), U):-
   preorden(HD,RD),
   append([E|RI],RD,U).
 ```
+-Donde U es la lista resultante que genera el append al concatenar la raiz con la rama izquierda y la rama derecha.
+
+El predicado Preorden se usará indicandole un árbol y una lista, en la que se almacenará el recorrido preorden. Mediante el append se consigue concatenar las listas con los elementos del árbol.
