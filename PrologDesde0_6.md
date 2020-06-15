@@ -40,7 +40,8 @@ lista_hojas(a(E, nil, nil), [E]).
 
 Ahora hay que detectar los casos en los que no sean hojas e implementarlos. Se han de tener en cuenta todas las opciones:
 
-- Dos árboles no nulos
+- Dos árboles no nulos:
+
 Definimos el árbol, sin etiqueta porque no se va a usar, con hijo a la izquierda e hijo a la derecha.
 ```
 lista_hojas(a(_, HI, HD), R):-
@@ -58,7 +59,7 @@ y concatenamos las dos listas en una lista R.
 ```
 append(LI, LD, R).
 ```
-- HD nulo HI no nulo
+- HD nulo HI no nulo:
 
 Sería el caso de un árbol de este tipo
 ```
@@ -73,11 +74,13 @@ lista_hojas(a(_, nil, HD), LD):-
     HD \= nil,
     lista_hojas(HD, LD).
 ```
-- HI nulo HD no nulo
+- HI nulo HD no nulo:
 Será del tipo:
+```
    1
   /
  2
+```
 
 Se implementa una llamada recursiva con hijo izquierda y el resultado será la lista de la izquierda.
 ```
