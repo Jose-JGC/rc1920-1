@@ -20,7 +20,9 @@ Se representa de la siguiente forma:
   2 3 4
 ```
 
-Vamos a resolver el predicado **cuenta_nodos**, que cuenta el número de nodos que tiene un árbol genérico.
+Vamos a resolver el predicado **cuenta_nodos**, que cuenta el número de nodos que tiene un árbol genérico. Para ello
+nos apoyamos en el video [011 Prolog: Árboles genéricos. Cuenta nodos
+](https://www.youtube.com/watch?v=LQ4sx2hqZKw&list=PL_d-XKRO_5G_4k1l6Dz81JhyLnyXRkEsP&index=36)
 ```
 /* cuenta_nodos(+A, -N)
    es cierto si N unifica con el número de
@@ -63,4 +65,4 @@ cuenta_nodos(Ca, RCa),
   cuenta_nodos(Resto, RResto),
   R is RCa + RResto.
 ```
-Nos apoyamos en el video https://www.youtube.com/watch?v=LQ4sx2hqZKw&list=PL_d-XKRO_5G_4k1l6Dz81JhyLnyXRkEsP&index=36
+
