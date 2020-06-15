@@ -60,11 +60,16 @@ Nos queda implementar el predicado **altura** del árbol, como indicamos anterio
 */  
 ```
 Volvemos a utilizar el principio de inducción.
-1. P(no) 
+```
+P(no) 
+```
 Necesitamos la altura del árbol más pequeño, la del árbol nulo, que será cero.
+```
 altura(nil,0).
-
-2. ∀ n > no, P(n-1)-> P(n)
+```
+```
+∀ n > no, P(n-1)-> P(n)
+```
 En la segunda parte del principio de inducción no vamos a quitar uno, lo que haremos es preguntar a la izquierda y a la derecha.
 El problema más pequeño lo hacemos quitando todos los elementos de una parte primero, de la izquierda, y después de la derecha.
 
@@ -127,7 +132,7 @@ No balanceados
        \      /         \
         5    4           7
 ```
-que se definen de la siguiente forma:
+que se definirían de la siguiente forma:
 ```
 1)arbol1(a(1,a(2,nil,nil),a(3,nil,nil))).  
 2)arbol2(a(1,a(2,a(3,nil,nil),a(4,nil,nil)),a(5,nil,nil))).
