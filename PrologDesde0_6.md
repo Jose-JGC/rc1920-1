@@ -78,7 +78,7 @@ Será del tipo:
    1
   /
  2
-```
+
 Se implementa una llamada recursiva con hijo izquierda y el resultado será la lista de la izquierda.
 ```
 lista_hojas(a(_, HI, nil), LI):-
