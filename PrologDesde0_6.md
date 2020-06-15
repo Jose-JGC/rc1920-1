@@ -19,7 +19,7 @@ Por ejemplo:
   / \ 
  3   4 
 ```
-Un resultado podría ser: 3,4,5], que son las etiquetas de los nodos que están en las hojas.
+Un resultado podría ser: [3,4,5], que son las etiquetas de los nodos que están en las hojas.
 
 Nos apoyaremos en este vídeo  [009 Prolog: Árboles binarios. Lista de hojas](https://www.youtube.com/watch?v=5OQ3uL4uJPg&list=PL_d-XKRO_5G_4k1l6Dz81JhyLnyXRkEsP&index=34).
 
