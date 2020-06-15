@@ -1,6 +1,6 @@
 # Prolog desde 0
 ## Árboles binarios. Lista de hojas
-Continuando con los ejercicios de árboles binarios, vamos a implementar el predicado ** lista_hojas **, que recibe un árbol binario 
+Continuando con los ejercicios de árboles binarios, vamos a implementar el predicado **lista_hojas**, que recibe un árbol binario 
 y devuelve una lista de todas sus hojas:
 ```
 /* 
