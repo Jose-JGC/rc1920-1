@@ -9,6 +9,8 @@ Nos apoyaremos en el siguiente video: [2.10 Programación Lógica con Prolog: Á
 Para ello, definiremos los predicados **balanceado** y **altura**, siendo este último utilizado en el de balanceado.
 Vamos a ver **balanceado**.
 
+Balanceado es cierto si, **para todo nodo**, la diferencia entre la altura del Hijo Izquierda y la altura del Hijo derecha es como máximo 1 en valor absoluto.
+
 Para comprobar si el árbol es balanceado usaremos el predicado **balanceado**
 ```
 /*
