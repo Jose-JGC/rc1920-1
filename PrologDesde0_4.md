@@ -2,7 +2,9 @@
 ## Árboles binarios balanceados
 
 Vamos a aprender a definir árboles binarios balanceados trabajando el pensamiento declarativo y la idea del principio de inducción. 
-Con este ejercicio, aprenderemos a identificar si un árbol binario es balanceado o no. 
+Con este ejercicio, aprenderemos a identificar si un árbol binario es balanceado o no.
+Nos apoyaremos en el siguiente video: [2.10 Programación Lógica con Prolog: Árboles balanceados (Nueva versión 4K!)🌳🌳⚖
+](https://www.youtube.com/watch?v=JkBlucdXFYg&list=PL_d-XKRO_5G_4k1l6Dz81JhyLnyXRkEsP&index=20)
 Para ello, definiremos los predicados **balanceado** y **altura**, siendo este último utilizado en el de balanceado.
 Vamos a ver **balanceado**.
 
