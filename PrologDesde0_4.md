@@ -106,18 +106,19 @@ altura(a(_, HI, HD), R):-
   altura(HD, AD),
   A is max(AI, AD),
   R is A+1.
-  ```
+```
   
 Probaremos la implentación con los siguientes árboles:
-
+```
    1) 1         2) 1
      / \          / \
     2   3	 2   5
                 / \
 	       3   4
-	       
-No balanceados
+```
 
+No balanceados
+```
    3) 1         4) 1
      /            / \
     2    	 2   5
@@ -125,6 +126,7 @@ No balanceados
   3   4        3       6  
        \      /         \
         5    4           7
+```
 que se definen de la siguiente forma:
 ```
 1)arbol1(a(1,a(2,nil,nil),a(3,nil,nil))).  
