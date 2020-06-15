@@ -10,6 +10,7 @@ Para ello, definiremos los predicados **balanceado** y **altura**, siendo este �
 Vamos a ver **balanceado**.
 
 Un árbol es balanceado si, **para todo nodo**, la diferencia entre la altura del hijo Izquierda y la altura del hijo derecha es como máximo 1 en valor absoluto. O lo que es lo mismo, si la altura del hijo izquierdo y el derecho se diferencian como máximo en 1 y el árbol de la izquierda y de la derecha es balanceado.
+Por definición, el árbol nulo es balanceado.
 
 Para comprobar si el árbol es balanceado usaremos el predicado **balanceado**
 ```
