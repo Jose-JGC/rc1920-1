@@ -1,17 +1,24 @@
 # Prolog desde 0
 ## Árboles Genéricos. Cuenta nodos
+
 Un árbol genérico en Prolog, a diferencia del árbol binario, no tiene el equivalente al árbol nulo; el árbol más pequeño es el árbol que tiene un único nodo.
 Se representa de la siguiente forma:
 - Árbol de un sólo nodo
+```
   1       a(1,[])
+  ```
 - Árbol con dos hijos:  
+  ```
     1
    / \    a(1,[a(2,[]),a(3,[])])
   2   3
+  ```
 - Árbol con tres hijos: 
+```
     1
    /|\    a(1,[a(2,[]),a(3,[]),a(4,[])])
   2 3 4
+```
 
 Vamos a resolver el predicado **cuenta_nodos**, que cuenta el número de nodos que tiene un árbol genérico.
 ```
