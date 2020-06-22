@@ -1,15 +1,20 @@
-					APRENDIENDO PROLOG DESDE 0
-					
+# Prolog desde 0
+
+## Principio de inducción
+
 Jose Joaquín González Colchero
 
-DÍA 1.
 Hoy es el primer dia de aprendizaje de prolog desde 0. Aprenderemos el principio de inducción, ya que es el concepto más basico y el pilar de la programación en prolog.
+
 Para aprender este concepto, visualizaremos el siguiente video: 2.01 Programación lógica con Prolog: [Principio de inducción (Nueva versión 4K!)] (https://www.youtube.com/watch?v=31ypX6BVq2E).
+
 Despues de ver el video, realizaremos un ejercicio y analizaremos su funcionamiento.
+
 **Principio de inducción**
 Es un principio que se utiliza mucho en matématicas para probar teoremas. La idea es muy sencilla y necesitamos de un conjunto ordenado S donde tendremos n elementos: *n0, n1, n2, ..., nN*.
 Aplicado a los número naturales, *n0* sería el *1*, *n1* el *2* y así sucesivamente. Para listas, el primer elemento será la lista vacía *[]*, el segundo puede ser una lista con un elemento *[a]* y así sucesivamente.Y para árboles será el primero el árbol vacío *nil*, soguiente con un nodo y así sucesivamente.
-¿Cómo funciona el principio de inducción?. El principio tiene dos partes:
+
+**¿Cómo funciona el principio de inducción?**. El principio tiene dos partes:
 1) Hay que probar una propiedad para todos los elementos del conjunto. Necesitamos que la propiedad sea cierta para el primer elemento *n0*, ésto es:
 ```P es cierta para n0
 ```
