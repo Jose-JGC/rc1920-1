@@ -16,7 +16,8 @@ Aplicado a los número naturales, *n0* sería el *1*, *n1* el *2* y así sucesiv
 
 **¿Cómo funciona el principio de inducción?**. El principio tiene dos partes:
 1) Hay que probar una propiedad para todos los elementos del conjunto. Necesitamos que la propiedad sea cierta para el primer elemento *n0*, ésto es:
-```P es cierta para n0
+```
+P es cierta para n0
 ```
 2) Y para los sucesivos, si la propiedad es cierta para *n-1* se puede asegurar que también lo será para *n*.
 ```
