@@ -1,7 +1,7 @@
 # Prolog desde 0
 ## Árboles binarios. Lista de hojas
 
-*poner experiencias*
+En otros lenguajes como c++ o java, la implementación de los árboles binarios no son del todo sencillas, sobretodo cuando se trata de la primera vez que nos planteamos su implementación. En prolog uno podría pensar lo mismo, yo mismo lo hice. Los árboles siempre imponen un poco, y más si de un nuevo lenguaje no imperativo se trata. Para mi suerte, después de resolver este ejercicio planteado me dí cuenta de que la implementacion en **prolog** es mucho mas sencilla de lo que uno espera. Así que te animo a seguir esta guía para descubrir por ti mismo como un concepto tan complicado de entender en otros lenguajes resulta ser sencillo en este.
 
 Continuando con los ejercicios de árboles binarios, vamos a implementar el predicado **lista_hojas**, que recibe un árbol binario 
 y devuelve una lista de todas sus hojas:
