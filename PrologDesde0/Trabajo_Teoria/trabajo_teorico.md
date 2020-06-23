@@ -13,6 +13,7 @@ Es un lenguaje que utiliza reglas definidas de tal forma que no existe ambigüed
 -	Cómo se construyen las frases.
 -	Qué símbolos podemos usar.
 -	Cómo se escriben esos símbolos.
+
 **Semántica**, son reglas que nos permiten
 -	Interpretar las sentencias.
 -	Asignar un significado a cada sentencia.
