@@ -9,6 +9,7 @@ Existen cuatro técnicas de representación del conocimiento que veremos a conti
 
 ## Representación Lógica
 Es un lenguaje que utiliza reglas definidas de tal forma que no existe ambigüedad en lo que se representa, utilizando proposiciones. Se aplican unas condiciones hasta llegar a la una conclusión. Cada proposición se traduce a la lógica utilizando reglas de comunicación definidas en sintaxis y semántica precisas:
+
 **Sintaxis**, son las reglas que determinan
 -	Cómo se construyen las frases.
 -	Qué símbolos podemos usar.
