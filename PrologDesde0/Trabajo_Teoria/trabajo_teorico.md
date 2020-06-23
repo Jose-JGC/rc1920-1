@@ -4,7 +4,7 @@
 Representar el conocimiento en Inteligencia Artificial consiste en representar la información del mundo real para expresarlo en un lenguaje que pueda ser automatizado y se pueda utilizar para resolver problemas de la vida real.
 Existen cuatro técnicas de representación del conocimiento que veremos a continuación.
 <p align="center">
-  <img src="./tecnicas.jpg">
+  <img src="imagenes/tecnicas.jpg">
 </p>
 
 ## Representación Lógica
@@ -28,7 +28,7 @@ Es un lenguaje que utiliza reglas definidas de tal forma que no existe ambigüed
 -	Genera inferencias que no son eficientes
 Veamos un ejemplo de modelado:
 <p align="center">
-  <img src="./tabla_modelado_logico.jpg">
+  <img src="imagenes/tabla_modelado_logico.jpg">
 </p>
 
 ## Redes Semánticas
@@ -43,7 +43,7 @@ Existen varias categorías de redes semánticas: Redes IS-A, gráficos conceptua
 -	Pedro es un Halcón
 ```
 <p align="center">
-  <img src="./ejemplo_redes.jpg">
+  <img src="imagenes/ejemplo_redes.jpg">
 </p>
 
 #### Ventajas
@@ -64,7 +64,7 @@ Hay dos tipos de marcos:
 -	Clase: representan conceptos o situaciones genéricas. Se describen por propiedades.
 -	Instancia: representan objetos concretos o individuos y están relacionados con un marco clase. Heredan las propiedades.
 <p align="center">
-  <img src="./ejemplo_marcos.jpg">
+  <img src="imagenes/ejemplo_marcos.jpg">
 </p>
 
 #### Ventajas
@@ -86,7 +86,7 @@ El sistema de reglas está formado por tres partes:
 -	Ciclo de reconocimiento-toma de decisión.
 La siguiente figura muestra un ejemplo de las reglas de un sistema de cajero automático
  <p align="center">
-  <img src="./ejemplo_reglas.jpg">
+  <img src="imagenes/ejemplo_reglas.jpg">
 </p>
 
 #### Ventajas
